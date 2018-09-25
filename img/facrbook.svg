@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="facrbook" transform="translate(-1663 -887)">
+    <rect id="背景" class="cls-1" width="24" height="24" transform="translate(1663 887)"/>
+    <rect id="矩形_15" data-name="矩形 15" class="cls-2" width="20" height="20" rx="5" transform="translate(1665 889)"/>
+    <path id="facebook" class="cls-3" d="M15.8,2H13.4a4,4,0,0,0-4,4V8.4H7v3.2H9.4V18h3.2V11.6H15l.8-3.2H12.6V6a.8.8,0,0,1,.8-.8h2.4Z" transform="translate(1665 891)"/>
+  </g>
+</svg>
