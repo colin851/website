@@ -60,7 +60,31 @@ $(document).ready(function(){
     	
     })
     
+    $('.loading-block .span5 i').on('animationEnd',function(){
+    	if(isLoaded){
+    		
+    		$('.contaniner').addClass('scaleBanner');
+    		$('.loading-block').hide();
+    	}else{
+    		$('.span1 .slider').addClass('loading1');
+    		$('.span2 .slider').addClass('loading2');
+    		$('.span3 .slider').addClass('loading2');
+    		$('.span4 .slider').addClass('loading2');
+    	}
+    	
+    	
+    })
+    
+    
+    
     $('.loading-block .span4 .slider').on('webkitAnimationEnd',function(){
+    	$('.span1 .slider').removeClass('loading1');
+    	$('.span2 .slider').removeClass('loading2');
+    	$('.span3 .slider').removeClass('loading2');
+    	$('.span4 .slider').removeClass('loading2');
+    })
+    
+    $('.loading-block .span4 .slider').on('animationEnd',function(){
     	$('.span1 .slider').removeClass('loading1');
     	$('.span2 .slider').removeClass('loading2');
     	$('.span3 .slider').removeClass('loading2');
