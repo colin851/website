@@ -391,11 +391,11 @@ html {
 	z-index: 100;
 }
 .loading-block .span5 .loading2 {
-	animation: loading4 1.5s cubic-bezier(0.06, 0.82, 0.32, 0.94) 3.2s;
-	-moz-animation: loading4 1.5s cubic-bezier(0.06, 0.82, 0.32, 0.94) 3.2s;
-	-webkit-animation: loading4 1.5s cubic-bezier(0.06, 0.82, 0.32, 0.94) 3.2s;
-	-o-animation: loading4 1.5s cubic-bezier(0.06, 0.82, 0.32, 0.94) 3.2s;
-	-ms-animation: loading4 1.5s cubic-bezier(0.06, 0.82, 0.32, 0.94) 3.2s;
+	animation: loading4 1.5s cubic-bezier(0.06, 0.82, 0.32, 0.94);
+	-moz-animation: loading4 1.5s cubic-bezier(0.06, 0.82, 0.32, 0.94);
+	-webkit-animation: loading4 1.5s cubic-bezier(0.06, 0.82, 0.32, 0.94);
+	-o-animation: loading4 1.5s cubic-bezier(0.06, 0.82, 0.32, 0.94);
+	-ms-animation: loading4 1.5s cubic-bezier(0.06, 0.82, 0.32, 0.94);
 	animation-fill-mode:forwards ;
 	-moz-animation-fill-mode: forwards ;
 	-webkit-animation-fill-mode: forwards ;

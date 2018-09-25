@@ -46,33 +46,13 @@ $(document).ready(function(){
     });
     
     $('.loading-block .span5 i').on('webkitAnimationEnd',function(){
-    	if(isLoaded){
-    		
-    		$('.contaniner').addClass('scaleBanner');
-    		$('.loading-block').hide();
-    	}else{
-    		$('.span1 .slider').addClass('loading1');
-    		$('.span2 .slider').addClass('loading2');
-    		$('.span3 .slider').addClass('loading2');
-    		$('.span4 .slider').addClass('loading2');
-    	}
-    	
-    	
+    	$('.contaniner').addClass('scaleBanner');
+    	$('.loading-block').hide();
     })
     
     $('.loading-block .span5 i').on('animationEnd',function(){
-    	if(isLoaded){
-    		
-    		$('.contaniner').addClass('scaleBanner');
-    		$('.loading-block').hide();
-    	}else{
-    		$('.span1 .slider').addClass('loading1');
-    		$('.span2 .slider').addClass('loading2');
-    		$('.span3 .slider').addClass('loading2');
-    		$('.span4 .slider').addClass('loading2');
-    	}
-    	
-    	
+    	$('.contaniner').addClass('scaleBanner');
+    	$('.loading-block').hide();
     })
     
     
@@ -82,6 +62,15 @@ $(document).ready(function(){
     	$('.span2 .slider').removeClass('loading2');
     	$('.span3 .slider').removeClass('loading2');
     	$('.span4 .slider').removeClass('loading2');
+    	if(isLoaded){
+    		$('.loading-block .span5 .slider').addClass('loading2');
+    	}else{
+    		$('.span1 .slider').addClass('loading1');
+    		$('.span2 .slider').addClass('loading2');
+    		$('.span3 .slider').addClass('loading2');
+    		$('.span4 .slider').addClass('loading2');
+    	}
+    	
     })
     
     $('.loading-block .span4 .slider').on('animationEnd',function(){
@@ -89,6 +78,14 @@ $(document).ready(function(){
     	$('.span2 .slider').removeClass('loading2');
     	$('.span3 .slider').removeClass('loading2');
     	$('.span4 .slider').removeClass('loading2');
+    	if(isLoaded){
+    		$('.loading-block .span5 .slider').addClass('loading2');
+    	}else{
+    		$('.span1 .slider').addClass('loading1');
+    		$('.span2 .slider').addClass('loading2');
+    		$('.span3 .slider').addClass('loading2');
+    		$('.span4 .slider').addClass('loading2');
+    	}
     })
     
     $('img').imgLoad({
