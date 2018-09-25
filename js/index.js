@@ -65,10 +65,13 @@ $(document).ready(function(){
     	if(isLoaded){
     		$('.loading-block .span5 .slider').addClass('loading2');
     	}else{
-    		$('.span1 .slider').addClass('loading1');
-    		$('.span2 .slider').addClass('loading2');
-    		$('.span3 .slider').addClass('loading2');
-    		$('.span4 .slider').addClass('loading2');
+    		setTimeout(function(){
+    			$('.span1 .slider').addClass('loading1');
+    			$('.span2 .slider').addClass('loading2');
+    			$('.span3 .slider').addClass('loading2');
+    			$('.span4 .slider').addClass('loading2');
+    		},100)
+    		
     	}
     	
     })
@@ -81,10 +84,12 @@ $(document).ready(function(){
     	if(isLoaded){
     		$('.loading-block .span5 .slider').addClass('loading2');
     	}else{
-    		$('.span1 .slider').addClass('loading1');
-    		$('.span2 .slider').addClass('loading2');
-    		$('.span3 .slider').addClass('loading2');
-    		$('.span4 .slider').addClass('loading2');
+    		setTimeout(function(){
+    			$('.span1 .slider').addClass('loading1');
+    			$('.span2 .slider').addClass('loading2');
+    			$('.span3 .slider').addClass('loading2');
+    			$('.span4 .slider').addClass('loading2');
+    		},100)
     	}
     })
     
