@@ -15,6 +15,34 @@
 	    <meta name="format-detection" content="telphone=no, email=no" />
 	    <link rel="stylesheet" href="css/style.css" />
 		<title>work</title>
+		<script>
+        (function (doc, win) {
+            var docEl = "";
+            docEl = doc.documentElement, resizeEvt = "orientationchange" in window ? "orientationchange" : "resize", recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) {
+                    return
+                } else {
+                    if (clientWidth > 1920) {
+                        docEl.style.fontSize = 100 + "px"
+                    } else {
+                        if (clientWidth < 1150) {
+                            docEl.style.fontSize = 60 + "px"
+                        } else {
+                            if (clientWidth <= 1920 || clientWidth >= 1150) {
+                                docEl.style.fontSize = (clientWidth / 1920) * 100 + "px"
+                            }
+                        }
+                    }
+                }
+            };
+            if (!doc.addEventListener) {
+                return
+            }
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener("DOMContentLoaded", recalc, false)
+        })(document, window);
+    </script>
 	</head>
 	<body>
 		<div class="logo">
