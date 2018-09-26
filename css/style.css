@@ -43,21 +43,13 @@ td {
 
 @font-face {
 	font-family: 'GilroyBold';
-	src: url('../fonts/font.eot') format('embedded-opentype'), /* IE6-IE8 */
-	url('../fonts/font.woff') format('woff'), 
-	url('../fonts/Gilroy-Bold.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-	url('../fonts/font.svg') format('svg');
-	/* iOS 4.1- */
+	src:url('../fonts/Gilroy-Bold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'DINCondensedBold';
-	src: url('../fonts/font.eot') format('embedded-opentype'), /* IE6-IE8 */
-	url('../fonts/font.woff') format('woff'), 
-	url('../fonts/DINCondensedBold.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-	url('../fonts/font.svg') format('svg');
-	/* iOS 4.1- */
+	src: url('../fonts/DINCondensedBold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
