@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="font-size: 100px;">
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -44,7 +44,7 @@
         })(document, window);
     </script>
 	</head>
-	<body>
+	<body style="display: none;">
 		
 		<div class="logo">
 			<a href="index.html">
@@ -133,5 +133,11 @@
 			</div>
 			
 		</div>
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script>
+			window.onload = function(){
+				$('body').show();
+			}
+		</script>
 	</body>
 </html>
